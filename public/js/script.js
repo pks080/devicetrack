@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://devicetrack.onrender.com");
 
 if(navigator.geolocation){
     navigator.geolocation.watchPosition(
